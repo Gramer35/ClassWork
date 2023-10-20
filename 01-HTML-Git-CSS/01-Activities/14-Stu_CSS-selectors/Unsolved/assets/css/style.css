@@ -1,0 +1,33 @@
+/* TODO: Giving us fonts that are to be used and fall backs */
+*  /* Wild card - covers for the whole page */{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* TODO: This will cover all bodies - so here the color is selected for all elements that are bodies */
+body {
+  background-color: lemonchiffon;
+}
+
+header, /* this gives the style for headers*/
+footer { /* this gives the style for footers*/
+  width: 100%; /* tells us how wide the footer box will be*/
+  height: 100px; /* tell us how tall the footer section will be*/
+  line-height: 100px; /* how tall the line will be where text is*/
+  color: #f0ead6; /* color for the text in the box*/
+  background-color: #191970; /* background color for the section */
+}
+
+figure  /* section called figure */{
+  width: 200px; /* size of the figure */
+  background-color: #f0ead6; /* background of the figure section */
+}
+
+/* TODO: Label selector type */
+.highlighted-text { /* class that can be used within a 'section' */
+  font-weight: bolder; /* what you want to do with the font.*/
+}
+
+/* TODO: Label selector type */
+#contact-section { /* ID that can be used once */
+  background-color: #f0ead6; /* background color of the ID */
+}
